@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="SUTL">
+      <UniqueIdentifier>{549c2bdc-28b3-4f6a-a2d8-63896d591faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SUTL\Headers">
+      <UniqueIdentifier>{68185da5-905f-4267-a898-53170899b541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SUTL\Headers\Interfaces">
+      <UniqueIdentifier>{1cb17645-5199-43a7-9d4a-b053beedd80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SUTL\Headers\Common">
+      <UniqueIdentifier>{1471d91d-e3f5-473d-82e8-c6645b28f085}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\ArrayTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CountedPointerTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DNodeTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DynamicArrayTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ExclusivePointerTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ListTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MemoryManagementHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NodeTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ProgramEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\QueueTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StackTests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\ArrayTests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\CountedPointerTests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DNodeTests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\DynamicArrayTests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ExclusivePointerTests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ListTests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MemoryManagementHelper.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\NodeTests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\QueueTests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\RunTests.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\StackTests.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SUTL\Headers\ResultEnums.h">
+      <Filter>SUTL\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SUTL\Headers\TestSetData.h">
+      <Filter>SUTL\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SUTL\Headers\UnitTest.h">
+      <Filter>SUTL\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SUTL\Headers\UnitTestLogger.h">
+      <Filter>SUTL\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SUTL\Headers\UnitTestResult.h">
+      <Filter>SUTL\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SUTL\Headers\UnitTestRunner.h">
+      <Filter>SUTL\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SUTL\Headers\Common\Types.h">
+      <Filter>SUTL\Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SUTL\Headers\Common\Uncopyable.h">
+      <Filter>SUTL\Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SUTL\Headers\Common\Unmovable.h">
+      <Filter>SUTL\Headers\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="SUTL\Headers\Interfaces\ITestSetData.h">
+      <Filter>SUTL\Headers\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SUTL\Headers\Interfaces\IUnitTest.h">
+      <Filter>SUTL\Headers\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SUTL\Headers\Interfaces\IUnitTestLogger.h">
+      <Filter>SUTL\Headers\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SUTL\Headers\Interfaces\IUnitTestResult.h">
+      <Filter>SUTL\Headers\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SUTL\Headers\Interfaces\IUnitTestRunner.h">
+      <Filter>SUTL\Headers\Interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
